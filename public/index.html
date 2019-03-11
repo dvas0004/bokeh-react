@@ -2,6 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    
+    <!-- Required for Bokeh Toolbar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.0.4/bokeh.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.0.4/bokeh-widgets.min.css">
+    
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta
       name="viewport"
@@ -37,5 +42,12 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+  <!-- 
+    Easier to add via CDN than npm imports due to import errors 
+    https://github.com/bokeh/bokeh/issues/8197
+  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.0.4/bokeh.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.0.4/bokeh-widgets.js"></script>
   </body>
 </html>
