@@ -34,4 +34,4 @@ In the project directory, you can run:
 
 ## More Info
 
-Please read the blog post available here: ()[]
+Please read the blog post available here: (https://blog.davidvassallo.me/2019/03/11/embedding-bokeh-into-a-reactjs-app-using-bokehjs/)[https://blog.davidvassallo.me/2019/03/11/embedding-bokeh-into-a-reactjs-app-using-bokehjs/]
