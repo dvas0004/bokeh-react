@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Button} from '@material-ui/core';
 import Axios from 'axios';
 
-// ran into this issue (hence weird package.json):
+// ran into this issue (hence no npm import of bokehjs):
 // https://github.com/bokeh/bokeh/issues/8197
 
 class App extends Component {
@@ -11,7 +11,7 @@ class App extends Component {
   }
 
   handlePlot2 = () => {
-    Axios.get("http://localhost:5000/plot2").then(resp => window.Bokeh.embed.embed_item(resp.data, 'testPlot'))
+    Axios.get("http://localhost:5000/plot2").then(resp => window.testPlot2 = window.Bokeh.embed.embed_item(resp.data, 'testPlot'))
   }
 
   render() {

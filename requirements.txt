@@ -204,3 +204,4 @@ xdiagnose==3.8.8
 xkit==0.0.0
 XlsxWriter==0.9.6
 zope.interface==4.3.2
+pscript==0.7.0
