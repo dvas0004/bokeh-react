@@ -101,7 +101,7 @@ pandas==0.24.1
 paramiko==2.4.2
 parsimonious==0.8.1
 pexpect==4.2.1
-Pillow==5.1.0
+Pillow==6.2.0
 plac==0.9.6
 plainbox==0.25
 pluggy==0.8.1
