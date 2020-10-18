@@ -32,6 +32,6 @@ In the project directory, you can run:
 * **yarn start** : initializes react frontend dev server on port 5000
 * **python3 app.py** : initializes python backend server on port 3000
 
-## More Info
+## More Info.
 
 Please read the blog post available here: (https://blog.davidvassallo.me/2019/03/11/embedding-bokeh-into-a-reactjs-app-using-bokehjs/)[https://blog.davidvassallo.me/2019/03/11/embedding-bokeh-into-a-reactjs-app-using-bokehjs/]
